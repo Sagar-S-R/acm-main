@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import {
     Card,
-    CardContent,
     CardDescription,
     CardFooter,
     CardHeader,

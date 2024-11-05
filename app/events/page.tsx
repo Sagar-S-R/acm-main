@@ -2,7 +2,7 @@
 import React from 'react'
 import Cards from '@/components/Cards'
 import eventData from '@/eventsData/previousEvents';
-import Image from 'next/image';
+
 
 export default function Events() {
     return (
