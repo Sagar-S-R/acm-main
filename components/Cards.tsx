@@ -34,7 +34,7 @@ const Cards = ({ title, description, details, img }) => {
                 </CardHeader>
 
                 <CardFooter>
-                    <Button onClick={toggleModal} className="text-blue-500 underline">
+                    <Button onClick={toggleModal} className="text-blue-500 underline font-titillium">
                         More
                     </Button>
                 </CardFooter>
@@ -73,7 +73,7 @@ const Cards = ({ title, description, details, img }) => {
                         </div>
 
                         <div className="mt-6 flex justify-end">
-                            <Button onClick={toggleModal} className="text-blue-500 underline">
+                            <Button onClick={toggleModal} className="text-blue-500 font-titillium underline">
                                 Close
                             </Button>
                         </div>
