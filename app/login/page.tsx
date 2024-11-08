@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <div className="flex flex-col items-center p-8 bg-black min-h-screen">
+    <div className="flex flex-col items-center p-8 bg-gradient-to-b from-deepBlueHead to-white min-h-screen">
       <h2 className="text-2xl font-semibold mb-6 text-lightBlue">Login</h2>
       
       <form className="flex flex-col w-full max-w-xs space-y-4">

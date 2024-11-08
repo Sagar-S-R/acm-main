@@ -7,7 +7,7 @@ import "../app/globals.css";
 
 const Intro = () => {
     return (
-        <section className="relative mt-[100px] overflow-hidden h-auto p-10">
+        <section className="relative  overflow-hidden h-auto p-10">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-black font-titillium leading-[1.2] text-center typewriter">
                     {/* ACM <span className="text-red-600" >RIT</span>-STUDENT CHAPTER */}
@@ -15,7 +15,7 @@ const Intro = () => {
                 </h2>
 
                 <div className="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
-                <div className="w-full min-h-[520px] bg-deepBlue flex gap-5 rounded-md relative p-4 md:p-10 py-12 border flex-col lg:flex-row">
+                <div className="w-full min-h-[520px] bg-gradient-to-b from-deepBlue to-deepBlueHead flex gap-5 rounded-md relative p-4 md:p-10 py-12 border flex-col lg:flex-row">
                     <div className="flex flex-col justify-between w-full">
                         <div className="space-y-8" >
                             <h1 className="text-lightBlue500 font-extrabold text-2xl sm:text-3xl md:text-4xl font-titillium leading-[1.2]">About ACM - Student Chapter</h1>

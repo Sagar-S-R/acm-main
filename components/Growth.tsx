@@ -6,7 +6,6 @@ const Growth = () => {
     return (
         <div>
             <section className="bg-black text-gray-100 relative  overflow-hidden h-auto p-10">
-            <div className="bg-gradient-to-b from-[#02042a] to-black h-[96px] w-full"></div>
                 <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                     <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-lightBlue500 font-titillium leading-[1.2] pl-4 ">
                         Explore, engagae , and<br/>  elevate with<span className="text-red-600 gap-2" > RITs</span>- <span className='text-white'>activities</span>

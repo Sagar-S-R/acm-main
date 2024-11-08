@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const page = () => {
   return (
-    <div className='flex flex-col justify-center items-center ' >
+    <div className='flex flex-col justify-center items-center bg-gradient-to-b from-deepBlueHead to-black ' >
       <div className='flex flex-col gap-10 p-10 mt-10'>
         <h2 className='font-semibold text-5xl hover:scale-110 font-titillium text-red-600 transition duration-300 mt-5'>Faculty Sponsor</h2>
         <div className='flex flex-col  justify-evenly bg-slate-100 items-center rounded-lg p-5 hover:bg-slate-300 hover:scale-125 transition duration-500  group'>
