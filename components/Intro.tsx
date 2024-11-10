@@ -9,9 +9,8 @@ const Intro = () => {
     return (
         <section className="relative  overflow-hidden h-auto p-10">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
-                <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-black font-titillium leading-[1.2] text-center typewriter">
-                    {/* ACM <span className="text-red-600" >RIT</span>-STUDENT CHAPTER */}
-                    Need To be changed
+                <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-gray-300 font-titillium leading-[1.2] text-center">
+                    About US
                 </h2>
 
                 <div className="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
@@ -36,7 +35,7 @@ const Intro = () => {
                                     </Link>
                                 </button>
                                 <div className="flex items-center cursor-pointer group">
-                                    <Link href="/aboutus" className="font-mullish font-bold text-lightBlue group-hover:text-grayBlue-500 transition-all duration-200">
+                                    <Link href="#" className="font-mullish font-bold text-lightBlue group-hover:text-grayBlue-500 transition-all duration-200">
                                         Know More
                                     </Link>
                                     <FiChevronRight className="w-5 h-5 text-lightBlue500 hover:text-greyBlue transition-all duration-200" />

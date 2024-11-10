@@ -7,58 +7,49 @@ export function Startsection() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "",
+    id: 1,
     thumbnail:
-      "/techTalk.jpg",
+      "/generalImages/coverPic3.jpg",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    id: 2,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic2.jpg",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    id: 3,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic1.jpg",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    id: 4,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic4.jpg",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    id: 5,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic5.jpg",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    id: 6,
     thumbnail:
-    '/techTalk.jpg',
+      "/generalImages/coverPic6.jpg",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    id: 7,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic7.jpg",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    id: 8,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic8.jpg",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    id: 9,
     thumbnail:
-      '/techTalk.jpg',
+      "/generalImages/coverPic9.jpg",
   },
 ];

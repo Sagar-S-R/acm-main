@@ -68,7 +68,7 @@ const Navbar = () => {
                             Sign Up
                         </button> */}
                     </div>
-                    <Link href="https://www.acm.org/" target="_blank"  className="cursor-pointer py-5 pr-5">
+                    <Link href="https://www.acm.org/" target="_blank" className="cursor-pointer py-5 pr-5">
                         <Image
                             src="/acmMainlogo.png"
                             width={120}
@@ -76,6 +76,11 @@ const Navbar = () => {
                             alt="Logo"
                         />
                     </Link>
+
+                    {/* <Link href={'/Developers'} className="text-white font-mullish py-5 hover:text-lightBlue transition-all duration-200 relative group">
+                        Developers
+                         <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div> 
+                    </Link> */}
                 </div>
                 {isOpen && (
                     <div className="sm:hidden bg-deepBlue fixed inset-0 z-50 flex flex-col items-center pt-20 space-y-6">

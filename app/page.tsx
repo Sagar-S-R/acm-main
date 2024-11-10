@@ -13,7 +13,6 @@ export default function Home() {
       <AboutIntro/>
       <div className="bg-gradient-to-b from-[#02042a] to-black h-[96px] w-full"></div>
       <Growth/>
-      <div className="bg-gradient-to-b from-black to-white h-[96px] w-full"></div>
       <Upcomingevents/>
       <Joinus/>
     </div>

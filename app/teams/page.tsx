@@ -19,8 +19,8 @@ const page = () => {
             />
           </div>
           <div className="mt-4 text-center">
-            <h3 className="text-lg font-semibold hover:scale-125 transition duration-600 p-2">Jamuna</h3>
-            <p className="text-gray-600">Advisor</p>
+            <h3 className="text-lg font-semibold hover:scale-125 transition duration-600 p-2">Jamuna S Murthy</h3>
+            <p className="text-gray-600"> Faculty Advisor</p>
           </div>
         </div>
       </div>

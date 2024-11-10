@@ -27,9 +27,9 @@ const Footer = () => {
         <div className="flex flex-col gap-7">
           <h5>Follow us</h5>
           <div className='flex gap-3 flex-col p-1'>
-            <Link className='flex gap-3' href={"/"}><span><FaWhatsapp/> </span>WhatsApp</Link>
-            <Link className='flex gap-3' href={"/"}><span><FaInstagram/></span> Instagram</Link>
-            <Link className='flex gap-3' href={"/"}><span><FaLinkedin/></span> LinkedIn</Link>
+            <Link className='flex gap-3' href={"/"} target='_blank'><span><FaWhatsapp/> </span>WhatsApp</Link>
+            <Link className='flex gap-3' href={"/"} target='_blank'><span><FaInstagram/></span> Instagram</Link>
+            <Link className='flex gap-3' href={"/"} target='_blank' ><span><FaLinkedin/></span> LinkedIn</Link>
           </div>
         </div>
         <div className="flex flex-col gap-7">
@@ -37,13 +37,13 @@ const Footer = () => {
           <div className='flex flex-col gap-3 p-1'>
             <h5>M S Ramaiah Institute of Technology</h5>
             <h5>M.S.Ramaiah Nagar, MSRIT Post Bengaluru 560054</h5>
-            <h5> <Link href={"https://www.msrit.edu/"}>msrit.edu</Link></h5>
+            <h5 className='text-lightBlue underline hover:text-red-600'> <Link href={"https://www.msrit.edu/"} target='_blank'>msrit.edu</Link></h5>
             <h5>Contact: +91 80 2360 0822 / 6934</h5>
           </div>
         </div>
       </div>
       <div className='flex items-center justify-center py-4'>
-        <span>© All rights reserved</span>
+        <span>ACM-RIT © 2024</span>
       </div>
     </div>
   );

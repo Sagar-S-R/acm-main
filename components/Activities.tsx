@@ -10,9 +10,9 @@ const Activities = () => {
         <section className="relative mt-[50px] overflow-hidden h-auto p-10">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <div className="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
-                <div className="w-full min-h-[520px] bg-deepBlue flex gap-5 rounded-md relative p-4 md:p-10 py-12 border flex-col lg:flex-row">
+                <div className="w-full min-h-[520px] bg-deepBlue flex gap-5 rounded-md relative p-4 md:p-10 py-12 flex-col lg:flex-row transition-transform duration-300 transform hover:scale-105">
                     <div className="flex flex-col justify-between w-full">
-                        <div className="space-y-8" >
+                        <div className="space-y-8">
                             <h1 className="text-lightBlue500 font-extrabold text-2xl sm:text-3xl md:text-4xl font-titillium leading-[1.2]">Activities and Opportunities</h1>
                             <div className="w-6 h-1 bg-greenLight"></div>
                             <p className="font-titillium text-[18px] leading-7 text-white opacity-70">
@@ -40,7 +40,6 @@ const Activities = () => {
                     />
                 </div>
             </div>
-
         </section>
     );
 };
