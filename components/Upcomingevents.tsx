@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 import { upcoming } from "@/eventsData/upComing/upComingEvents"
 
@@ -15,7 +14,7 @@ export function Upcomingevents() {
         speed="fast"
         buttons={[
           { label: "Learn More", href: "/events/#javathon" },
-          { label: "Register", href: "/register" },
+          // { label: "Register", href: "/register" },
         ]}
       />
     </div>

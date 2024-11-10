@@ -16,20 +16,20 @@ const Footer = () => {
         <div className="flex flex-col gap-7">
           <h5>Quick links</h5>
           <div className='flex flex-col gap-3 p-1'>
-            <Link href={"/"}>Home</Link>
-            <Link href={"/aboutus"}>About</Link>
-            <Link href={"/events"}>Events</Link>
-            <Link href={"/teams"}>Teams</Link>
-            <Link href={"/resources"}>Resources</Link>
-            <Link href={"/joinus"}>Join Us</Link>
+            <Link className='hover:text-lightBlue transition duration-150' href={"/"}>Home</Link>
+            <Link className='hover:text-lightBlue transition duration-150' href={"/aboutus"}>About</Link>
+            <Link className='hover:text-lightBlue transition duration-150' href={"/events"}>Events</Link>
+            <Link className='hover:text-lightBlue transition duration-150' href={"/teams"}>Teams</Link>
+            <Link className='hover:text-lightBlue transition duration-150' href={"/resources"}>Resources</Link>
+            <Link className='hover:text-lightBlue transition duration-150' href={"/joinus"}>Join Us</Link>
           </div>
         </div>
         <div className="flex flex-col gap-7">
           <h5>Follow us</h5>
           <div className='flex gap-3 flex-col p-1'>
-            <Link className='flex gap-3' href={"/"} target='_blank'><span><FaWhatsapp/> </span>WhatsApp</Link>
-            <Link className='flex gap-3' href={"/"} target='_blank'><span><FaInstagram/></span> Instagram</Link>
-            <Link className='flex gap-3' href={"/"} target='_blank' ><span><FaLinkedin/></span> LinkedIn</Link>
+            <Link className='flex gap-3' href={"javascript:void(0)"} ><span><FaWhatsapp/> </span>WhatsApp</Link>
+            <Link className='flex gap-3' href={"javascript:void(0)"} ><span><FaInstagram/></span> Instagram</Link>
+            <Link className='flex gap-3' href={"javascript:void(0)"} ><span><FaLinkedin/></span> LinkedIn</Link>
           </div>
         </div>
         <div className="flex flex-col gap-7">
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className='flex flex-col gap-3 p-1'>
             <h5>M S Ramaiah Institute of Technology</h5>
             <h5>M.S.Ramaiah Nagar, MSRIT Post Bengaluru 560054</h5>
-            <h5 className='text-lightBlue underline hover:text-red-600'> <Link href={"https://www.msrit.edu/"} target='_blank'>msrit.edu</Link></h5>
+            <h5 className='text-lightBlue hover:text-red-600 transition duration-150'> <Link href={"https://www.msrit.edu/"} target='_blank'>msrit.edu</Link></h5>
             <h5>Contact: +91 80 2360 0822 / 6934</h5>
           </div>
         </div>

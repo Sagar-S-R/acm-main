@@ -4,6 +4,7 @@ import { Startsection } from "@/components/Startsection";
 import AboutIntro from "@/components/AboutIntro";
 import Growth from "@/components/Growth";
 import Upcomingevents from "@/components/Upcomingevents";
+import Whatsapp from "@/components/Whatsapp";
 export default function Home() {
   return (
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Growth/>
       <Upcomingevents/>
       <Joinus/>
+      <Whatsapp/>
     </div>
 
   );
