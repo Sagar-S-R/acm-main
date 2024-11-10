@@ -109,7 +109,6 @@ export const InfiniteMovingCards = ({
                 </span>
               </div>
             </blockquote>
-            {/* Navigation Buttons */}
             <div className="mt-4 flex gap-2">
               {buttons.map((button, buttonIdx) => (
                 <Link key={buttonIdx} href={button.href}>

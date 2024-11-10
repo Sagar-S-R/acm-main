@@ -4,6 +4,7 @@ import Ourmission from "@/components/Ourmission";
 import Activities from "@/components/Activities";
 import Intro from '@/components/Intro';
 
+
 const aboutus = () => {
   return (
     <div className='bg-gradient-to-b from-deepBlueHead to-white'>
