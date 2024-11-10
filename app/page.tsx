@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Joinus from "@/components/Joinus";
 import { Startsection } from "@/components/Startsection";
 import AboutIntro from "@/components/AboutIntro";
