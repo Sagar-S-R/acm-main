@@ -28,10 +28,10 @@ const page = () => {
       <div className="flex flex-col items-center space-y-12 mb-20 justify-evenly ">
         <h2 className="text-4xl font-semibold font-titillium text-red-600 hover:scale-110 transition duration-300 mt-5">Chapter Officers</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {chapterOfficers.map((officer, index) => (
+          {chapterOfficers.map((member, index) => (
             <MemberCard
               key={index}
-              member={officer}
+              member={member}
             />))}
         </div>
       </div>
