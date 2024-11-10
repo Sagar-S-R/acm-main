@@ -1,18 +1,22 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import Javathon from "@/app/events/javathon";
 
 export function Upcomingevents() {
   return (
     <div className="h-[30rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <h2 className="text-red-500 mb-5 font-extrabold text-2xl sm:text-3xl md:text-4xl font-titillium leading-[1.2]">
-        Up Coming Events
+        Upcoming Events
       </h2>
-      still need to be upadted to glow
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
         speed="fast"
+        buttons={[
+          { label: "Learn More", href: "/events/javathon" },
+          // { label: "Register", href: "/register" },
+        ]}
       />
     </div>
   );
@@ -20,16 +24,14 @@ export function Upcomingevents() {
 
 const testimonials = [
   {
-    quote:
-      "It",
+    quote: "Experience the coding extravaganza!",
     name: "Javathon",
     title: "A Tale of Two Cities",
   },
   {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+    quote: "An event that redefines collaboration!",
+    name: "Code Fusion",
+    title: "Code Together, Grow Together",
   },
 ];
 
