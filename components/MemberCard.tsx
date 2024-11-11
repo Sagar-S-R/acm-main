@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
-const MemberCard = ({ member }) => {
-    return (
+const MemberCard = ({member} : any) => {
+    return (        
         <div>
             <div className='flex flex-col  justify-evenly bg-slate-100 items-center rounded-lg p-5 hover:bg-slate-300 hover:scale-105 transition duration-500  group'>
                 <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg transition-transform transform group-hover:scale-105 cursor-pointer">
