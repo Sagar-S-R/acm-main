@@ -5,7 +5,7 @@ import UpcomingDesc from '@/components/UpcomingEventsDisplay';
 
 export default function Events() {
     return (
-        <div className="container mx-auto px-4 py-8 bg-gradient-to-b from-deepBlueHead to-white">
+        <div className="container mx-auto px-4 py-8">
             <h2 className="text-5xl font-bold mb-6 text-center font-titillium">Events</h2>
             <div className="mb-16 p-10 bg-deepBlue rounded-lg ">
 
