@@ -7,12 +7,11 @@ import "../app/globals.css";
 
 const AboutIntro = () => {
     return (
-        <section className="relative bg-deepBlue overflow-hidden h-auto pt-4">
+        <section className="relative bg-deepBlue overflow-hidden h-auto pt-8">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <h2
                     className="font-extrabold text-center font-titillium 
         leading-tight 
-        typewriter 
         text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"
                 >
                     <span className="text-lightBlue300">ACM</span>{' '}
