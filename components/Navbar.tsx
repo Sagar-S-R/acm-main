@@ -77,38 +77,39 @@ const Navbar = () => {
                         />
                     </Link>
 
-                     {/* <Link href={'/Developers'} className="text-white font-mullish py-5 hover:text-lightBlue transition-all duration-200 relative group">
+                    {/* <Link href={'/Developers'} className="text-white font-mullish py-5 hover:text-lightBlue transition-all duration-200 relative group">
                         Developers
                          <div className="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div> 
                     </Link>  */}
                 </div>
                 {isOpen && (
-                    <div className="sm:hidden bg-deepBlue fixed inset-0 z-50 flex flex-col items-center pt-20 space-y-6">
+                    <div className="sm:hidden p-5 bg-deepBlue inset-0 z-50 flex flex-col items-center pt-5 space-y-4">
                         <Link href="/" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
                             Home
                         </Link>
-                        <Link href="/aboutacm" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
+                        <Link href="/aboutus" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
                             About
                         </Link>
                         <Link href="/events" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
                             Events
                         </Link>
-                        <Link href="aboutus" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
+                        <Link href="teams" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
                             Teams
                         </Link>
                         <Link href="#" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
                             Resource
                         </Link>
-                        <Link href="/" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
+                        <Link href="/#joinus" className="text-white font-mullish py-2 text-lg" onClick={toggleDrawer}>
                             Join Us
                         </Link>
                         <div className="flex flex-col items-center space-y-4 mt-6">
-                            <button className="py-2 px-6 font-mullish text-white border-lightBlue border-2 rounded-sm text-sm font-bold">
+                            <Link href={'/login'}><button className="py-2 px-5 font-mullish text-white border-lightBlue border-2 rounded-sm text-sm font-bold ">
                                 Log in
                             </button>
-                            <button className="py-2 px-6 font-mullish text-sm font-bold bg-white text-lightBlue300 transition-all duration-200 hover:text-lightBlue300">
+                            </Link>
+                            {/* <button className="py-2 px-6 font-mullish text-sm font-bold bg-white text-lightBlue300 transition-all duration-200 hover:text-lightBlue300">
                                 Sign Up
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 )}

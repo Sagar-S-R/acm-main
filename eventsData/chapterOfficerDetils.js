@@ -2,32 +2,32 @@ export const chapterOfficers = [
     {
         name: 'Harshitha J S',
         role: 'Chair',
-        image: '/background.jpg',
+        image: '/coreTeam/harshitha.jpg',
     },
     {
         name: 'Ankit Raj',
         role: 'Vice Chair',
-        image: '/background.jpg',
+        image: '/coreTeam/ankith.jpg',
     },
     {
         name: 'Harshavardhan Mehta',
         role: 'Treasurer',
-        image: '/background.jpg',
+        image: '/coreTeam/harshvardhan.jpg',
     },
     {
         name: 'Jamuna S Murthy',
         role: 'Secretary',
-        image: '/background.jpg',
+        image: '/coreTeam/jamuna.jpg',
     },
     {
         name: 'A Deepthi',
         role: 'Web Master',
-        image: '/background.jpg',
+        image: '/coreTeam/deepthi.jpg',
     },
     {
         name: 'Moodeambain Pawan',
         role: 'Memership Chair',
-        image: '/background.jpg',
+        image: '/coreTeam/pawan.jpg',
     }
     
 ]

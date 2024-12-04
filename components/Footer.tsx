@@ -28,8 +28,8 @@ const Footer = () => {
           <h5>Follow us</h5>
           <div className='flex gap-3 flex-col p-1'>
             <Link className='flex gap-3' href={"javascript:void(0)"} ><span><FaWhatsapp/> </span>WhatsApp</Link>
-            <Link className='flex gap-3' href={"javascript:void(0)"} ><span><FaInstagram/></span> Instagram</Link>
-            <Link className='flex gap-3' href={"javascript:void(0)"} ><span><FaLinkedin/></span> LinkedIn</Link>
+            <Link className='flex gap-3' href={"https://www.instagram.com/acm__rit?igsh=MXZpZHJsYXpjdXQ5aw=="} target='_blank' ><span><FaInstagram/></span> Instagram</Link>
+            <Link className='flex gap-3' href={"https://www.linkedin.com/in/rit-acm-student-chapter-522bb7280"} target='_blank'><span><FaLinkedin/></span> LinkedIn</Link>
           </div>
         </div>
         <div className="flex flex-col gap-7">

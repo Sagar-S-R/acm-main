@@ -12,7 +12,7 @@ const page = () => {
         <div className='flex flex-col  justify-evenly bg-slate-100 items-center rounded-lg p-5 hover:bg-slate-300 hover:scale-125 transition duration-500  group'>
           <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg transition-transform transform group-hover:scale-105 cursor-pointer">
             <Image
-              src={'/background.jpg'}
+              src={'/coreTeam/jamuna.jpg'}
               alt={``}
               layout="fill"
               objectFit="cover"
@@ -38,7 +38,7 @@ const page = () => {
       <div className='bg-green-600 w-3/12 items-center h-1 rounded-sm'></div>
       <div className="flex flex-col items-center space-y-12 mb-20">
         <h2 className="text-4xl text-red-600 font-semibold hover:scale-110 transition duration-300 mt-5">Members</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {members.map((member, index) => (
             <MemberCard
               key={index}

@@ -7,10 +7,17 @@ import "../app/globals.css";
 
 const AboutIntro = () => {
     return (
-        <section className="relative bg-deepBlue overflow-hidden h-auto p-20">
+        <section className="relative bg-deepBlue overflow-hidden h-auto pt-4">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
-                <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-black font-titillium leading-[1.2] text-center typewriter">
-                    <span className="text-lightBlue300">ACM</span> <span className="text-red-600" >RIT</span> <span className="text-white">-STUDENT CHAPTER</span>
+                <h2
+                    className="font-extrabold text-center font-titillium 
+        leading-tight 
+        typewriter 
+        text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"
+                >
+                    <span className="text-lightBlue300">ACM</span>{' '}
+                    <span className="text-red-600">RIT</span>{' '}
+                    <span className="text-white">-STUDENT CHAPTER</span>
                 </h2>
 
                 <div className="w-10 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
@@ -20,7 +27,7 @@ const AboutIntro = () => {
                             <h1 className="text-lightBlue500 font-extrabold text-2xl sm:text-3xl md:text-4xl font-titillium leading-[1.2]">About ACM - Student Chapter</h1>
                             <div className="w-10 h-1 bg-greenLight"></div>
                             <p className="font-titillium text-[18px] leading-7 text-white opacity-70">
-                            The RIT ACM Chapter is a vibrant community dedicated to empowering students at the Ramaiah Institute of Technology with the skills, knowledge, and networks needed to excel in the tech world. As part of the global Association for Computing Machinery, our chapter brings together passionate RITians who are driven to explore, innovate, and lead in all areas of computing.
+                                The RIT ACM Chapter is a vibrant community dedicated to empowering students at the Ramaiah Institute of Technology with the skills, knowledge, and networks needed to excel in the tech world. As part of the global Association for Computing Machinery, our chapter brings together passionate RITians who are driven to explore, innovate, and lead in all areas of computing.
                             </p>
                             <div className="flex flex-row items-center space-x-4">
                                 <button className="bg-lightBlue w-fit text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">

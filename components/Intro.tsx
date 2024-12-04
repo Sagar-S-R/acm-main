@@ -44,7 +44,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <Image className="rounded-md"
-                        src="/background.jpg"
+                        src="/generalimages/coverPic5.jpg"
                         width={600}
                         height={400}
                         alt="Picture of the author"

@@ -57,7 +57,7 @@ export const HeroParallax = ({
     return (
         <div
             ref={ref}
-            className="h-[270vh] bg-gradient-to-b from-white to-gray-400 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+            className="h-[250vh] bg-gradient-to-b from-white to-gray-400 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
         >
             <Header />
             <motion.div
@@ -121,16 +121,16 @@ export const Header = () => {
 
     return (
         <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
-            <h1 className="text-2xl sm:text-3xl md:text-7xl font-bold dark:text-white">
+            <h1 className="text-3xl sm:text-3xl md:text-7xl font-bold dark:text-white">
                 Here at
-                <span className="text-red-600 font-extrabold text-2xl sm:text-3xl md:text-7xl font-titillium leading-[1.2]">
+                <span className="text-red-600 font-extrabold text-3xl sm:text-3xl md:text-7xl font-titillium leading-[1.2]">
                     {" "} RIT
                 </span>{" "}
-                <span className="text-lightBlue300 font-extrabold text-2xl sm:text-3xl md:text-7xl font-titillium leading-[1.2]">
+                <span className="text-lightBlue300 font-extrabold text-3xl sm:text-3xl md:text-7xl font-titillium leading-[1.2]">
                     ACM
                 </span>
             </h1>
-            <p className="max-w-2xl text-2xl sm:text-3xl md:text-6xl mt-8 dark:text-neutral-200 font-titillium font-semibold">
+            <p className="max-w-2xl text-3xl sm:text-3xl md:text-6xl mt-8 dark:text-neutral-200 font-titillium font-semibold">
                 <span className='text-deepBlue' >{text}</span>
                 <Cursor cursorStyle="|" />
             </p>

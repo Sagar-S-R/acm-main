@@ -7,7 +7,6 @@ const Login = () => {
       <h3 className='text-xl font-titillium mb-6 text-white'>For RIT-ACM Members</h3>
       
       <form className="flex flex-col w-full max-w-xs space-y-4">
-        {/* Login Section */}
         <input 
           type="text" 
           placeholder="USN" 
@@ -26,10 +25,7 @@ const Login = () => {
         >
           LogIn
         </button>
-        <div className='h-1 w-3/12 bg-green-600 relative'></div>
 
-
-        {/* Register Section */}
         <h3 className="text-xl mt-8 text-red-600 text-center font-semibold">Register</h3>
         
         <input 
