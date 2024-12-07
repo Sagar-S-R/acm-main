@@ -1,32 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). 
 
-## Getting Started
 
-https://varshamhomepageexample.my.canva.site/
+# ACM-RIT Student Chapter Website
 
-First, run the development server:
+Welcome to the official website of the **ACM-RIT (Association for Computing Machinery - MSRIT) Student Chapter**! This website is designed to provide information about the ACM chapter at **MSRIT**, showcase upcoming and past events, and serve as a platform for students to connect and engage with the chapter’s activities.
 
-```bash
-npm run dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend:** React, Next.js
+- **Styling:** CSS, TailwindCSS
+- **Backend:** MongoDB for event data management, Next.js(custom backend), node.js
+- **Deployment:** Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Event Listings:** Dynamic display of **upcoming** and **past events**.
+- **Responsive Design:** The website is fully responsive, providing a seamless experience on both desktop and mobile devices.
+- **Sticky Navbar:** The navbar remains fixed at the top while scrolling.
+- **Event Details:** Detailed information about each event, including **host**, **speaker**, and **event date**.
+- **Dynamic Content:** Event data is imported from a separate file and passed as props to each event card.
 
-## Learn More
+Open [acm-rit](https://acmrit.vercel.app/) with your browser to open the website.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
