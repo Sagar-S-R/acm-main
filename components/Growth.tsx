@@ -5,6 +5,7 @@ import Link from 'next/link';
 const Growth = () => {
     return (
         <div>
+
             <section className="bg-black text-gray-100 relative  overflow-hidden h-auto pt-8">
                 <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                     <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-lightBlue500 font-titillium leading-[1.2] pl-4 ">
@@ -12,7 +13,7 @@ const Growth = () => {
                     </h2>
 
                     {/* <div className="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div> */}
-                    <div className="w-full min-h-[520px] bg-black flex justify-between rounded-md relative p-1 md:p-10 py-12 flex-col lg:flex-row">
+                    <div className="w-full min-h-[520px] bg-black flex justify-around gap-10 rounded-md relative p-1 md:p-10 py-12 flex-col lg:flex-row">
                         <div className="flex flex-col justify-between w-full">
                             <div className="space-y-8" >
                                 <h1 className="text-lightBlue500 font-extrabold text-2xl sm:text-3xl md:text-4xl font-titillium leading-[1.2]"></h1>
@@ -36,8 +37,9 @@ const Growth = () => {
                         </div>
                         <Image className="rounded-md"
                             src="/elevate.jpg.webp"
-                            width={500}
+                            width={400}
                             height={200}
+                            layout="intrinsic"
                             alt="Picture of the author"
                         />
                     </div>
