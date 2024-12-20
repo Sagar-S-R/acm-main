@@ -7,7 +7,7 @@ import "../app/globals.css";
 
 const Ourjourney = () => {
     return (
-        <section className="relative mt-[50px] overflow-hidden h-auto p-10">
+        <section className="relative mt-[50px] overflow-hidden h-auto p-2 md:p-10">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <div className="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
                 <div className="relative w-full min-h-[520px] bg-deepBlue flex flex-col lg:flex-row gap-5 rounded-md p-4 md:p-10 py-12 transition-transform duration-300 transform hover:scale-105">

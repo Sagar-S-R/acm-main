@@ -7,7 +7,7 @@ import "../app/globals.css";
 
 const Intro = () => {
     return (
-        <section className="relative  overflow-hidden h-auto p-10">
+        <section className="relative  overflow-hidden h-auto p-2 md:p-10">
             <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
                 <h2 className="font-extrabold text-2xl sm:text-3xl md:text-6xl text-gray-300 font-titillium leading-[1.2] text-center">
                     About US
