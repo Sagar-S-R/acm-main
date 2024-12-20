@@ -35,9 +35,9 @@ const Growth = () => {
                             </div>
                         </div>
                         <Image className="rounded-md"
-                            src="/explore2.jpg"
-                            width={600}
-                            height={300}
+                            src="/elevate.jpg.webp"
+                            width={500}
+                            height={200}
                             alt="Picture of the author"
                         />
                     </div>

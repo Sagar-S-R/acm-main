@@ -6,6 +6,8 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+
+
 @layer utilities {
   @keyframes typing {
     from {

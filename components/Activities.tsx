@@ -33,7 +33,7 @@ const Activities = () => {
                         </div>
                     </div>
                     <Image className="rounded-md"
-                        src="/generalimages/coverPic4.jpg"
+                        src="/generalImages/coverPic4.jpg"
                         width={600}
                         height={400}
                         alt="Picture of the author"
