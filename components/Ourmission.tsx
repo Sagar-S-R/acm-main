@@ -34,8 +34,8 @@ const Ourmission = () => {
                     </div>
                     <Image className="rounded-md"
                         src="/mission.jpg"
-                        width={600}
-                        height={400}
+                        width={400}
+                        height={300}
                         alt="Picture of the author"
                     />
                 </div>

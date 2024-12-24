@@ -1,7 +1,7 @@
 export const upcoming = [
     {
         quote: "Experience the coding extravaganza!",
-        name: "Javathon",
+        name: "HackVenture",
         title: "Igniting Innovation in Development",
     },    
     {
