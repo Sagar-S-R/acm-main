@@ -97,10 +97,7 @@ const eventData = [
       img3: '/eventsImages/socVerification/socv3.jpg',
     },
 
-  },
-
-
- 
+  }, 
 ];
 
 export default eventData;
