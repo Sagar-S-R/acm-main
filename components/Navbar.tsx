@@ -14,12 +14,12 @@ const Navbar = () => {
     return (
         <div>
             <nav className="bg-deepBlue">
-                <div className="relative w-full max-w-[1080px] mx-auto flex items-center justify-between px-4 ">
+                <div className="relative w-full max-w-[1080px] mx-auto flex items-center justify-between gap-10 px-4 ">
                     <Link href="/" className="cursor-pointer py-5 pr-5">
                         <Image
-                            src="/acmlogo.png"
-                            width={150}
-                            height={40}
+                            src="/INVERT-removebg-preview.png"
+                            width={130}
+                            height={30}
                             alt="Logo"
                         />
                     </Link>
