@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="relative w-full max-w-[1080px] mx-auto flex items-center justify-between gap-10 px-4 ">
                     <Link href="/" className="cursor-pointer py-5 pr-5">
                         <Image
-                            src="/INVERT-removebg-preview.png"
+                            src="/main-logo.png"
                             width={130}
                             height={30}
                             alt="Logo"
