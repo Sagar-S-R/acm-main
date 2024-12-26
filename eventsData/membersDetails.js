@@ -61,7 +61,7 @@ export const members = [
   },
   {
     "index": 6,
-    "name": "Sagar",
+    "name": "Samrudh P",
     "role": "Technical",
     "image": "/user.jpg"
   },
@@ -97,7 +97,7 @@ export const members = [
   },
   {
     "index": 12,
-    "name": "Samrudh P",
+    "name": "Sagar S R",
     "role": "Technical",
     "image": "/user.jpg"
   },
