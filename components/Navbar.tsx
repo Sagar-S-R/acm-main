@@ -18,8 +18,8 @@ const Navbar = () => {
                     <Link href="/" className="cursor-pointer py-5 pr-5">
                         <Image
                             src="/main-logo.png"
-                            width={130}
-                            height={30}
+                            width={80}
+                            height={20}
                             alt="Logo"
                         />
                     </Link>
