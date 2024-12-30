@@ -121,19 +121,19 @@ export const members = [
   },
   {
     "index": 16,
-    "name": "Sandesh",
+    "name": "Sandesh Huli",
     "role": "Documentation",
     "image": "/user.jpg"
   },
   {
     "index": 17,
-    "name": "Soham",
+    "name": "Soham Dave",
     "role": "Coverage",
     "image": "/user.jpg"
   },
   {
     "index": 18,
-    "name": "Varsha",
+    "name": "Varsha M",
     "role": "Technical",
     "image": "/user.jpg"
   },
@@ -151,7 +151,7 @@ export const members = [
   },
   {
     "index": 21,
-    "name": "Sashidhar",
+    "name": "Shashidhar",
     "role": "Event Management",
     "image": "/user.jpg"
   },
@@ -163,7 +163,7 @@ export const members = [
   },
   {
     "index": 23,
-    "name": "Ranjitha",
+    "name": "Ranjita",
     "role": "Technical",
     "image": "/user.jpg"
   },
@@ -193,7 +193,7 @@ export const members = [
   },
   {
     "index": 28,
-    "name": "Swanand",
+    "name": "Swanand Gadwe",
     "role": "Technical",
     "image": "/user.jpg"
   },
