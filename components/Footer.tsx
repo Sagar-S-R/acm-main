@@ -27,13 +27,13 @@ const Footer = () => {
         <div className="flex flex-col gap-7">
           <h5>Follow us</h5>
           <div className='flex gap-3 flex-col p-1'>
-            <Link className='flex gap-3' href={"https://chat.whatsapp.com/IGY09dDzxXk6wE1h1yCxMa"} target='_blank' ><span><FaWhatsapp/> </span>WhatsApp</Link>
-            <Link className='flex gap-3' href={"https://www.instagram.com/acm__rit?igsh=MXZpZHJsYXpjdXQ5aw=="} target='_blank' ><span><FaInstagram/></span> Instagram</Link>
-            <Link className='flex gap-3' href={"https://www.linkedin.com/company/acm-rit"} target='_blank'><span><FaLinkedin/></span> LinkedIn</Link>
-            <Link className='flex gap-3' href={"https://discord.gg/sNUM35sj"} target='_blank'><span><FaDiscord/></span> Discord</Link>
-            <Link className='flex gap-3' href={"https://t.me/rit_acm"} target='_blank'><span><FaTelegram/></span> Telegram</Link>
-            <Link className='flex gap-3' href={"https://www.youtube.com/@ACM_RIT"} target='_blank'><span><FaYoutube/></span> Youtube</Link>
-            <Link className='flex gap-3' href={"https://linktr.ee/ACM_RIT"} target='_blank'><span><FaLink/></span> LinkTree</Link>
+            <Link className='flex gap-3' href={"https://chat.whatsapp.com/IGY09dDzxXk6wE1h1yCxMa"} target='_blank' ><span><FaWhatsapp className='text-green-400' /> </span>WhatsApp</Link>
+            <Link className='flex gap-3' href={"https://www.instagram.com/acm__rit?igsh=MXZpZHJsYXpjdXQ5aw=="} target='_blank' ><span><FaInstagram className=' rounded-sm bg-gradient-to-b from-orange-600 to-yellow-600' /></span> Instagram</Link>
+            <Link className='flex gap-3' href={"https://www.linkedin.com/company/acm-rit"} target='_blank'><span><FaLinkedin className='text-blue-700'/></span> LinkedIn</Link>
+            <Link className='flex gap-3' href={"https://discord.gg/sNUM35sj"} target='_blank'><span><FaDiscord className='text-blue-900'/></span> Discord</Link>
+            <Link className='flex gap-3' href={"https://t.me/rit_acm"} target='_blank'><span><FaTelegram className='text-blue-300'/></span> Telegram</Link>
+            <Link className='flex gap-3' href={"https://www.youtube.com/@ACM_RIT"} target='_blank'><span><FaYoutube className='text-red-700'/></span> Youtube</Link>
+            <Link className='flex gap-3' href={"https://linktr.ee/ACM_RIT"} target='_blank'><span><FaLink className='text-green-600'/></span> LinkTree</Link>
 
           </div>
         </div>
