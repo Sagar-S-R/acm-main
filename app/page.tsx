@@ -15,7 +15,9 @@ export default function Home() {
       <div className="bg-gradient-to-b from-[#02042a] to-black h-[96px] w-full"></div>
       <Growth/>
       <Upcomingevents/>
+
       <Joinus/>
+      <div className="h-[60px] "></div>
  
       
       
