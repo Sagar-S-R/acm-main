@@ -64,9 +64,6 @@ const Navbar = () => {
                             Log in
                         </button>
                         </Link>
-                        {/* <button className="py-2 px-4 font-mullish text-sm font-bold bg-white text-lightBlue300 transition-all duration-200 hover:text-lightBlue300">
-                            Sign Up
-                        </button> */}
                     </div>
                     <Link href="https://www.acm.org/" target="_blank" className="cursor-pointer py-5 pr-5">
                         <Image
