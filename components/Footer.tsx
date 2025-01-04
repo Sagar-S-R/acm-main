@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex items-center justify-center py-4'>
-        <span>ACM-RIT © 2024</span>
+        <span>ACM-RIT © 2025</span>
       </div>
     </div>
   );
