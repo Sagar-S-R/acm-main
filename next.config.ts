@@ -2,7 +2,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['aceternity.com','images.unsplash.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'acmrit.vercel.app', // Replace with your image host's domain
+        pathname: '/**', 
+      },
+    ],
+    domains: ['aceternity.com', 'images.unsplash.com'],
   },
 }
 
