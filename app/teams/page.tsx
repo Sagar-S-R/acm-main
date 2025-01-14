@@ -22,7 +22,7 @@ const Page = () => {
   delete groupedMembers['Technical'];
 
   return (
-    <div className="flex flex-col justify-center items-center bg-gradient-to-b from-deepBlueHead to-black text-black">
+    <div className="flex flex-col justify-center pt-20 items-center bg-gradient-to-b from-deepBlueHead to-black text-black">
       {/* Faculty Sponsor Section */}
       <div className="flex flex-col items-center gap-10 p-4 sm:p-10 mt-10 w-full">
         <h2 className="font-semibold text-4xl sm:text-5xl hover:scale-110 font-titillium text-red-600 transition duration-300 text-center">

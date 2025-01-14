@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <div className="flex flex-col items-center p-8 bg-gradient-to-b from-deepBlueHead to-white min-h-screen">
+    <div className="flex flex-col items-center p-8 bg-gradient-to-b from-deepBlueHead pt-40 to-white min-h-screen">
       <h2 className="text-3xl  font-titillium mb-6 text-red-600">Login </h2>
       <h3 className='text-xl font-titillium mb-6 text-white'>For RIT-ACM Members</h3>
       

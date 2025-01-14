@@ -7,7 +7,7 @@ import Intro from '@/components/Intro';
 
 const aboutus = () => {
   return (
-    <div className='bg-gradient-to-b from-deepBlueHead to-white'>
+    <div className='bg-gradient-to-b pt-28 from-deepBlueHead to-white'>
       <Intro/>
       <Ourjourney/>
       <Ourmission/>
