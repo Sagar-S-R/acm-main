@@ -10,7 +10,7 @@ export const chapterOfficers = [
         image: '/coreTeam/ankith.jpg',
     },
     {
-        name: 'Harshavardhan Mehta',
+        name: 'Harshvardhan Mehta',
         role: 'Treasurer',
         image: '/coreTeam/harshvardhan.jpg',
     },
@@ -25,9 +25,14 @@ export const chapterOfficers = [
         image: '/coreTeam/deepthi.jpg',
     },
     {
-        name: 'Moodeambain Pawan',
+        name: 'Pawan Moodambail',
         role: 'Memership Chair',
         image: '/coreTeam/pawan.jpg',
+    },
+    {
+        name : 'Aditi Mahajan',
+        role : 'Social Media Head',
+        image : '/coreTeam/adithi.jpg'
     }
     
 ]
