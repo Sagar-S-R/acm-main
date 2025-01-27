@@ -1,5 +1,5 @@
 "use client"
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
 
 const UpcomingDesc = () => {
@@ -9,7 +9,7 @@ const UpcomingDesc = () => {
                 Upcoming Events
             </h2>
             <hr className="border-gray-600 border-t-4 my-4" />
-            <div id='javathon' className="min-h-screen flex flex-col max-w-fit border-black shadow-lg p-6">
+            {/* <div id='javathon' className="min-h-screen flex flex-col max-w-fit border-black shadow-lg p-6">
                 <div className='p-5'>
                     <div className="max-w-3xl w-full rounded-lg p-6 mb-3">
                         <h1 className="text-4xl font-bold text-blue-600 mb-4">HACKVENTURE 1.0</h1>
@@ -64,7 +64,16 @@ const UpcomingDesc = () => {
                        
                     </div>
                 </div>
+            </div> */}
+            <div className="w-full h-full mt-16 text-center ">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+                    We&apos;ll Catch You Guys Soon 😉
+                </h2>
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 mt-4">
+                    Stay tuned for more exciting events coming your way!
+                </p>
             </div>
+
         </div>
     );
 };
