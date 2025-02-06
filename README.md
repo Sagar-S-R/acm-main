@@ -1,7 +1,4 @@
- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). 
-
-
-# ACM-RIT Student Chapter Website
+# ACM-RIT Student Chapter Website  🔗[ACM-RIT](https://acmrit.vercel.app/)
 
 Welcome to the official website of the **ACM-RIT (Association for Computing Machinery - MSRIT) Student Chapter**! This website is designed to provide information about the ACM chapter at **MSRIT**, showcase upcoming and past events, and serve as a platform for students to connect and engage with the chapter’s activities.
 
