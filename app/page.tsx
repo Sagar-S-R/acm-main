@@ -16,7 +16,7 @@ export default function Home() {
       <Growth/>
       <Upcomingevents/>
       <Joinus/>
-      <div className="h-[60px] "></div>
+      <div className="h-[80px] "></div>
     </div>
 
   );
