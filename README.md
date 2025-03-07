@@ -17,5 +17,5 @@ Welcome to the official website of the **ACM-RIT (Association for Computing Mach
 - **Event Details:** Detailed information about each event, including **host**, **speaker**, and **event date**.
 - **Dynamic Content:** Event data is imported from a separate file and passed as props to each event card.
 
-Open [acm-rit Student chapter](https://acmrit.vercel.app/) with your browser to open the website.
+link :  [acm-rit Student chapter](https://acmrit.vercel.app/) 
 
