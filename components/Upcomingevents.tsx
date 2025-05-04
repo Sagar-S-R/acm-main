@@ -15,7 +15,7 @@ export function Upcomingevents() {
           direction="right"
           speed="fast"
           buttons={[
-            { label: "Learn More", href: "/events/#javathon" },
+            { label: "Learn More", href: "/events/#upcoming" },
             // { label: "Register", href: "/register" },
           ]}
         /> :
