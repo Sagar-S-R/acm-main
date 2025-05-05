@@ -131,7 +131,7 @@ const UpcomingDesc = () => {
                             <div className="text-gray-700 space-y-3 text-sm sm:text-base">
                                 <ul className="list-disc list-inside space-y-2 pl-4">
                                     <li><strong>Event Format:</strong> Two rounds. Solve problems using the fewest characters possible.</li>
-                                    <li><strong>Languages Allowed:</strong> Java, Python, C (No other languages permitted)</li>
+                                    <li><strong>Languages Allowed:</strong> Python(No other languages permitted)</li>
                                     <li><strong>Scoring:</strong> Fewer characters = more points. Ties broken by correctness & submission time.</li>
                                     <li><strong>Rules:</strong>
                                         <ul className="list-disc pl-6 mt-1">
@@ -143,7 +143,7 @@ const UpcomingDesc = () => {
                                     </li>
                                     <li><strong>Strictly Enforced:</strong>
                                         <ul className="list-disc pl-6 mt-1">
-                                            <li>Only Java, Python, C allowed</li>
+                                            <li>Only Python allowed</li>
                                             <li>No ChatGPT or AI tools</li>
                                             <li>No online compilers or search engines</li>
                                             <li>No collaboration or code copying</li>
