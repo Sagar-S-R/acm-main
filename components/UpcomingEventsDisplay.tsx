@@ -117,6 +117,15 @@ const UpcomingDesc = () => {
                             <li><strong>Phone Number:</strong> +91 85399 00733</li>
                         </ul>
                     </div>
+                    {/* 🌐 Hosting Platform Info */}
+                    <div className="max-w-2xl w-full rounded-lg p-6 bg-white shadow mb-4">
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Hosting Platform</h2>
+                        <p className="text-gray-700 text-base">
+                            This event will be conducted on <strong>HackerRank</strong>. Participants must have an active HackerRank account to compete.
+                            Details regarding the platform access and problem links will be shared prior to the event.
+                        </p>
+                    </div>
+
 
                     {/* 📜 Collapsible Rules Section */}
                     <div className="max-w-2xl w-full rounded-lg p-6 bg-gray-100 shadow mb-6">
@@ -131,7 +140,7 @@ const UpcomingDesc = () => {
                             <div className="text-gray-700 space-y-3 text-sm sm:text-base">
                                 <ul className="list-disc list-inside space-y-2 pl-4">
                                     <li><strong>Event Format:</strong> Two rounds. Solve problems using the fewest characters possible.</li>
-                                    <li><strong>Languages Allowed:</strong> Python(No other languages permitted)</li>
+                                    <li><strong>Languages Allowed:</strong> Java, C, CPP, Python</li>
                                     <li><strong>Scoring:</strong> Fewer characters = more points. Ties broken by correctness & submission time.</li>
                                     <li><strong>Rules:</strong>
                                         <ul className="list-disc pl-6 mt-1">
@@ -143,7 +152,6 @@ const UpcomingDesc = () => {
                                     </li>
                                     <li><strong>Strictly Enforced:</strong>
                                         <ul className="list-disc pl-6 mt-1">
-                                            <li>Only Python allowed</li>
                                             <li>No ChatGPT or AI tools</li>
                                             <li>No online compilers or search engines</li>
                                             <li>No collaboration or code copying</li>
