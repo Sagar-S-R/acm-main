@@ -1,11 +1,11 @@
 "use client"
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
-import { useState } from 'react';
+// import Image from 'next/image';
+// import { useState } from 'react';
 
 const UpcomingDesc = () => {
-    const [showRules, setShowRules] = useState(false);
+    // const [showRules, setShowRules] = useState(false);
     return (
         <div id="upcoming" className="w-full h-full mt-5">
             <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
@@ -68,14 +68,14 @@ const UpcomingDesc = () => {
                     </div>
                 </div>
             </div> */}
-            <div id="codegolf" className="min-h-screen flex flex-col items-center px-4 py-6">
+            {/* <div id="codegolf" className="min-h-screen flex flex-col items-center px-4 py-6">
                 <div className="w-full max-w-4xl bg-gray-50 shadow-lg rounded-2xl p-6 sm:p-10">
-                    {/* 💥 Heading */}
+                    
                     <h1 className="text-4xl md:text-5xl font-bold text-blue-700 text-center mb-6">
                         Code Golf - When Less is More
                     </h1>
 
-                    {/* 📸 Flyer */}
+                   
                     <div className="w-full max-w-md md:max-w-2xl mb-8">
                         <Image
                             src="/eventsImages/codegolf/flyer.jpg"
@@ -87,7 +87,7 @@ const UpcomingDesc = () => {
                         />
                     </div>
 
-                    {/* 📅 Event Details */}
+                   
                     <div className="max-w-2xl w-full rounded-lg p-6 bg-white shadow mb-4">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Event Details</h2>
                         <ul className="list-disc list-inside text-gray-700 space-y-2 pl-4">
@@ -100,7 +100,7 @@ const UpcomingDesc = () => {
                         </ul>
                     </div>
 
-                    {/* 💸 Registration Fees */}
+               
                     <div className="max-w-2xl w-full rounded-lg p-6 bg-white shadow mb-4">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Registration Fees</h2>
                         <ul className="list-disc list-inside text-gray-700 space-y-2 pl-4">
@@ -109,7 +109,7 @@ const UpcomingDesc = () => {
                         </ul>
                     </div>
 
-                    {/* 🏦 Payment Details */}
+                
                     <div className="max-w-2xl w-full rounded-lg p-6 bg-white shadow mb-4">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Payment Details</h2>
                         <ul className="list-disc list-inside text-gray-700 space-y-2 pl-4">
@@ -117,7 +117,7 @@ const UpcomingDesc = () => {
                             <li><strong>Phone Number:</strong> +91 85399 00733</li>
                         </ul>
                     </div>
-                    {/* 🌐 Hosting Platform Info */}
+                    
                     <div className="max-w-2xl w-full rounded-lg p-6 bg-white shadow mb-4">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Hosting Platform</h2>
                         <p className="text-gray-700 text-base">
@@ -126,8 +126,6 @@ const UpcomingDesc = () => {
                         </p>
                     </div>
 
-
-                    {/* 📜 Collapsible Rules Section */}
                     <div className="max-w-2xl w-full rounded-lg p-6 bg-gray-100 shadow mb-6">
                         <h2
                             className="text-2xl font-semibold text-gray-800 mb-3 cursor-pointer"
@@ -172,8 +170,6 @@ const UpcomingDesc = () => {
                             </div>
                         )}
                     </div>
-
-                    {/* 🚀 Register Button */}
                     <div className="max-w-2xl w-full flex justify-center">
                         <Link target='__blank' href="https://forms.gle/kxfcYZGhesR4x7F67">
                             <button className="bg-blue-600 text-white py-3 px-6 rounded-full font-semibold hover:bg-blue-700 transition duration-200">
@@ -182,16 +178,16 @@ const UpcomingDesc = () => {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            {/* <div className="w-full h-full mt-16 text-center ">
+            <div className="w-full h-full mt-16 text-center ">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
                     We&apos;ll Catch You Guys Soon 😉
                 </h2>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 mt-4">
                     Stay tuned for more exciting events coming your way!
                 </p>
-            </div> */}
+            </div>
 
         </div>
     );

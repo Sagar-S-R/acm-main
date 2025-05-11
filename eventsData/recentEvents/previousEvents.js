@@ -23,7 +23,7 @@ const eventData = [
     id: 2,
     title: "Tech Talk \n On CHAOS THEORY",
     img: "/eventsImages/techTalk/tt1.jpg",
-    description:"Discover the link between Chaos and Machine Learning in this talk by Dr. Nithin Nagaraj.",
+    description: "Discover the link between Chaos and Machine Learning in this talk by Dr. Nithin Nagaraj.",
     guest: {
       name: "Dr. Nithin Nagaraj",
       about: ""
@@ -73,7 +73,7 @@ const eventData = [
       img6: '/eventsImages/mentalAbility/maq6.jpg',
       img7: '/eventsImages/mentalAbility/maq7.jpg',
       img8: '/eventsImages/mentalAbility/maq8.jpg',
-      img9: '/eventsImages/mentalAbility/maq9.jpg', 
+      img9: '/eventsImages/mentalAbility/maq9.jpg',
     },
 
   },
@@ -97,7 +97,70 @@ const eventData = [
       img3: '/eventsImages/socVerification/socv3.jpg',
     },
 
-  }, 
+  },
+  {
+    id: 6,
+    title: "Hackventure 1.0",
+    img: "/eventsImages/hackventure/hv1.jpg",
+    description: "A two-phase hackathon encouraging cross-semester innovation, culminating in live demos judged by industry experts.",
+    guest: {
+      name: "Aman Raj, Ankit Jangid, Siddharth Bhetariya",
+      about: "Judging panel comprising industry experts who provided project feedback, evaluation, and personal insights into tech and career paths."
+    },
+    faculty: {
+      name: "Jamuna S Murthy",
+      about: "Assistant Professor, Department of CSE and ACM-RIT Faculty Coordinator, who opened the event with an inspiring speech and guided the organizing team throughout."
+    },
+    details: {
+      desc: "Hackventure 1.0, organized by the ACM Student Chapter of RIT, was a hybrid hackathon held in two phases. The first phase, the online Ideation Round, occurred on December 20th, 2024, where teams submitted their innovative proposals without a fixed theme—providing full creative liberty across semesters and tech stacks. The second phase, held offline on December 27th, 2024, involved presentations and demos at the DES Hi-Tech Seminar Hall.\n\nOver 100 teams participated, and the top teams brought impressive solutions ranging from AI-powered medical diagnostics to real-time civic issue reporting platforms. Special awards were given to recognize freshers and female-led teams, promoting inclusivity and talent. The event concluded with a certificate and prize distribution ceremony on January 2nd, 2025. Judges emphasized the importance of DSA, OOPs, real-world data integration, and strong peer circles in tech journeys.\n\n🏆 Top Winners:\n1st – Snack Overflow (WhatsApp Deepfake Detector) – ₹2000\n2nd – CamelForTheW (Brain Tumor Detection via X-rays) – ₹1500\n3rd – JanaSwara (Public Complaint Tracker) – ₹1000\n\n✨ Special Awards:\n- Best Fresher: Glare Guard Solution (Anti-glare night driving tech)\n- Best Women’s Team: Stack Overflowers (Community rental platform)\n\nThe event was a hit with great diversity, excitement, and valuable feedback that shaped young innovators into future problem solvers.",
+      img1: "/eventsImages/hackventure/hv1.jpg",
+      img9: "/eventsImages/hackventure/hv9.jpg",
+      img11: "/eventsImages/hackventure/hv11.jpg",
+      img8: "/eventsImages/hackventure/hv8.png",
+      img7: "/eventsImages/hackventure/hv7.jpg",
+      img10: "/eventsImages/hackventure/hv10.jpg",
+      img5: "/eventsImages/hackventure/hv5.jpg",
+      img2: "/eventsImages/hackventure/hv2.png",
+      img3: "/eventsImages/hackventure/hv3.png",
+      img4: "/eventsImages/hackventure/hv4.jpg",
+    }
+  },
+  {
+    id: 7,
+    title: "CODE GOLF 2025",
+    img: "/eventsImages/codeGolf/code1.jpg",
+    description: "A fast-paced DSA coding contest hosted on HackerRank, emphasizing shortest code solutions and efficiency.",
+    faculty: {
+      name: "Jamuna S Murthy",
+      about: "Assistant Professor, Department of CSE and Faculty Coordinator of ACM-RIT. Delivered the welcome address and played a key role in organizing the event."
+    },
+    details: {
+      desc: "CODEGOLF 2025 wasn’t your average coding competition — it was a pure battle of brains and brevity. Hosted by the ACM Student Chapter at RIT on May 9th, 2025, this offline showdown brought together over 70+ elite teams from multiple colleges, including RVCE and IISc. The twist? You had to solve tough DSA problems with the shortest possible code. Think HackerRank. Think sweat. Think obsession with shaving off \"every single character\".\n\nThe event was split into two brutal rounds. Round 1 hit with a mix of easy and medium-level problems. Then Round 2 turned up the heat — with hard-core DSA challenges that required both logic and code-golf strategy. Points were deducted for every extra character, making every semicolon count.\n\n🔥 Highlights:\n- Hosted on HackerRank using C, C++, Java, or Python\n- Strict rules: No AI tools, no online compilers, no copying — raw skill only\n- 20 AICTE activity points were awarded to all participants\n\n🥇 Winners:\n- 1st Place: \"TrieFecta\" — consistent leaderboard kings, took home ₹7,000\n- 2nd Place: \"Team MisFits\" — creative coders who sliced through edge cases — ₹5,000\n- 3rd Place: \"bhatakta Vaibhav\" — clean, efficient, and surgical with code — ₹3,000\n\n🧠 Bonus fun: A riddle break kept the vibes alive while judges calculated scores.\n\nJudges praised the participants’ grit and left them with golden advice: Focus on fundamentals, test edge cases like a maniac, and write code that's not just short — but smart. The event ended with certificates, photo sessions, and a whole lot of respect for clean code and competitive hustle.\n\nIn the end, CodeGolf 2025 proved this: It's not about writing 'more' code, it's about writing the 'right' code — with less.",
+      img20: "/eventsImages/codeGolf/code20.jpg",
+      img13: "/eventsImages/codeGolf/code13.jpg",
+      img6: "/eventsImages/codeGolf/code6.jpg",
+      img1: "/eventsImages/codeGolf/code1.jpg",
+      img2: "/eventsImages/codeGolf/code2.jpg",
+      img3: "/eventsImages/codeGolf/code3.jpg",
+      img5: "/eventsImages/codeGolf/code5.jpg",
+      img25: "/eventsImages/codeGolf/code25.jpg",
+      img26: "/eventsImages/codeGolf/code26.jpg",
+      img27: "/eventsImages/codeGolf/code27.jpg",
+      img4: "/eventsImages/codeGolf/code4.jpg",
+      img7: "/eventsImages/codeGolf/code7.jpg",
+      img8: "/eventsImages/codeGolf/code8.jpg",
+      img21: "/eventsImages/codeGolf/code21.jpg",
+      img10: "/eventsImages/codeGolf/code10.jpg",
+      img11: "/eventsImages/codeGolf/code11.jpg",
+      img12: "/eventsImages/codeGolf/code12.jpg",
+      img14: "/eventsImages/codeGolf/code14.jpg",
+      img15: "/eventsImages/codeGolf/code15.jpg",
+      img16: "/eventsImages/codeGolf/code16.jpg",
+      img18: "/eventsImages/codeGolf/code18.jpg",
+      img22: "/eventsImages/codeGolf/code22.jpg",
+      img24: "/eventsImages/codeGolf/code24.jpg",
+    }
+  }
 ];
 
 export default eventData;
