@@ -161,6 +161,7 @@ const eventData = [
       img24: "/eventsImages/codegolf/code24.jpg",
     }
   }
+  
 ];
 
 export default eventData;
