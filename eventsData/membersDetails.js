@@ -31,7 +31,7 @@ export const members = [
 
   {
     "index": 1,
-    "name": "Saikiran",
+    "name": "Shreya",
     "role": "Design and social media",
     "image": "/user.jpg"
   },
@@ -67,7 +67,7 @@ export const members = [
   },
   {
     "index": 7,
-    "name": "Shreya",
+    "name": "Saikiran",
     "role": "Design and social media",
     "image": "/user.jpg"
   },
