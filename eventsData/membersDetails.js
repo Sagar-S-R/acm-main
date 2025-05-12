@@ -67,7 +67,7 @@ export const members = [
   },
   {
     "index": 7,
-    "name": "Saikiran",
+    "name": "Menita",
     "role": "Design and social media",
     "image": "/user.jpg"
   },
@@ -79,7 +79,7 @@ export const members = [
   },
   {
     "index": 9,
-    "name": "Shubham Chaudhary",
+    "name": "Shubham Choudhary",
     "role": "Event Management",
     "image": "/user.jpg"
   },
@@ -199,7 +199,7 @@ export const members = [
   },
   {
     "index": 29,
-    "name": "Menita",
+    "name": "Saikiran",
     "role": "Design and social media",
     "image": "/user.jpg"
   },
