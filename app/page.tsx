@@ -8,7 +8,7 @@ import Upcomingevents from "@/components/Upcomingevents";
 export default function Home() {
   return (
 
-    <div className="">
+    <div className="pt-32">
       <Startsection/>
       <div className="bg-gradient-to-b from-gray-400 to-[#02042a] h-[96px] w-full"></div>
       <AboutIntro/>

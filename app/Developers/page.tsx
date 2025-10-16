@@ -2,7 +2,7 @@ import React from 'react'
 
 const developers = () => {
     return (
-        <div className='flex flex-col '>
+        <div className='flex flex-col pt-32'>
             <div className='flex flex-row justify-center items-center bg-gradient-to-b from-deepBlueHead to-black '>
                 <div className='flex flex-col gap-10 p-10 mt-10'>
                     <h2 className='font-semibold text-3xl hover:scale-110 font-titillium text-red-600 transition duration-300 mt-5'> Website Developers</h2>
