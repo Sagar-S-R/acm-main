@@ -69,7 +69,7 @@ const Login = () => {
         router.push('/dashboard');
       }, 1500);
     } catch (err) {
-      setError('Failed to connect to server. Make sure backend is running on http://localhost:5001');
+      setError('Failed to connect to server. Make sure backend is running on http://localhost:5000');
       console.error(err);
     } finally {
       setLoading(false);
@@ -121,7 +121,7 @@ const Login = () => {
         fullName: ''
       });
     } catch (err) {
-      setError('Failed to connect to server. Make sure backend is running on http://localhost:5001');
+      setError('Failed to connect to server. Make sure backend is running on http://localhost:5000');
       console.error(err);
     } finally {
       setLoading(false);

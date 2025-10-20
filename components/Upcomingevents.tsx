@@ -1,8 +1,33 @@
 "use client";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-import { upcoming } from "@/eventsData/upComing/upComingEvents"
+import { useState, useEffect } from "react";
+
+interface Event {
+  _id: string;
+  title: string;
+  description: string;
+  date: string;
+  location: string;
+  speakers?: string[];
+}
 
 export function Upcomingevents() {
+  const [upcoming, setUpcoming] = useState<Event[]>([]);
+
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/api/documentation/events?status=upcoming');
+        if (response.ok) {
+          const data = await response.json();
+          setUpcoming(data.events);
+        }
+      } catch (error) {
+        console.error('Error fetching events:', error);
+      }
+    };
+    fetchEvents();
+  }, []);
 
   return (
     <div id="upm" className="h-[30rem] mt-10 rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
@@ -11,12 +36,15 @@ export function Upcomingevents() {
       </h2>
       {upcoming.length ?
         <InfiniteMovingCards
-          items={upcoming}
+          items={upcoming.map(event => ({
+            quote: event.description,
+            name: event.title,
+            title: new Date(event.date).toLocaleDateString(),
+          }))}
           direction="right"
           speed="fast"
           buttons={[
             { label: "Learn More", href: "/events/#upcoming" },
-            // { label: "Register", href: "/register" },
           ]}
         /> :
         <div className="w-full h-full mt-5 text-center">
@@ -28,7 +56,5 @@ export function Upcomingevents() {
     </div>
   );
 }
-
-
 
 export default Upcomingevents;

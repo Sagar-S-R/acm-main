@@ -27,6 +27,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const userStr = typeof window !== 'undefined' ? localStorage.getItem('user') : null;
   const userData = userStr ? JSON.parse(userStr) : null;
   const userTeam = userData?.team;
+  const userRole = userData?.role;
 
   const getSidebarLinks = () => {
     const baseLinks = [
@@ -55,7 +56,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       ],
     };
 
-    return [...baseLinks, ...(teamLinks[userTeam || ''] || [])];
+    let links = [...baseLinks, ...(teamLinks[userTeam || ''] || [])];
+
+    // Add admin links for technical or admin roles
+    if (userRole === 'technical' || userRole === 'admin') {
+      links = [...links, ...teamLinks['Technical']];
+    }
+
+    return links;
   };
 
   return (

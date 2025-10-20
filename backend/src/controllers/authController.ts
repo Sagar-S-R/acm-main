@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import User from '../models/User';
 import UserRole from '../models/UserRole';
+// @ts-ignore
 const { validationResult } = require('express-validator');
 
 const generateToken = (userId: string, team: string) => {
@@ -51,7 +52,7 @@ export const register = async (req: Request, res: Response) => {
       token,
       user: {
         id: user._id,
-        username: (user as any).username,
+        username: user.username,
         name: user.name,
         email: user.email,
         team: user.team,
@@ -104,7 +105,7 @@ export const login = async (req: Request, res: Response) => {
       token,
       user: {
         id: user._id,
-        username: (user as any).username,
+        username: user.username,
         name: user.name,
         email: user.email,
         team: user.team,

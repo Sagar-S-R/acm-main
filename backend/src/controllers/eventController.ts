@@ -41,11 +41,13 @@ export const getAllEvents = async (req: Request, res: Response) => {
   try {
     const { status, sortBy } = req.query;
 
+    // @ts-ignore
     let filter: any = {};
     if (status) {
       filter.status = status;
     }
 
+    // @ts-ignore
     let sortOptions: any = { date: -1 };
     if (sortBy === 'recent') {
       sortOptions = { createdAt: -1 };
@@ -94,9 +96,9 @@ export const updateEvent = async (req: Request, res: Response) => {
       return res.status(404).json({ message: 'Event not found' });
     }
 
-    // Only creator or admin can update
-    if (event.createdBy !== userId) {
-      return res.status(403).json({ message: 'You can only edit your own events' });
+    // Only creator or team members can update
+    if (event.createdBy !== userId && !['Documentation', 'Event Management'].includes(req.userTeam || '')) {
+      return res.status(403).json({ message: 'You can only edit your own events or if you are in Documentation/Event Management team' });
     }
 
     const updatedEvent = await Event.findByIdAndUpdate(eventId, updateData, { new: true });

@@ -54,6 +54,11 @@ app.get('/api/health', (req: Request, res: Response) => {
   res.status(200).json({ message: 'Server is running' });
 });
 
+// Test endpoint
+app.get('/api/test', (req: Request, res: Response) => {
+  res.status(200).json({ message: 'API working' });
+});
+
 // 404 handler
 app.use((req: Request, res: Response) => {
   res.status(404).json({ message: 'Route not found' });

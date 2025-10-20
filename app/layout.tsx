@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import { Titillium_Web } from "next/font/google";
 import Footer from "@/components/Footer";
 import Ubutton from "@/components/Ubutton";
-import Head from "next/head";
 
 const titillium = Titillium_Web({
   weight: ["400", "700"],
@@ -40,12 +39,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image" content="/logo.png" />
-        <meta name="twitter:image" content="/logo.png" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
       <body className={titillium.className}>
         <Navbar />
         {children}
